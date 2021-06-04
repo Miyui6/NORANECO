@@ -1,0 +1,4 @@
+//平均の出し方//
+SELECT avg(kids_nimber) FROM employee;
+//カラム名の変更//
+ALTER TABLE employee RENAME COLUMN kids_number TO AverageKids;
